@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>formulario</title>
+</head>
+<body>
+    <div class="container">
+    <section class="sessao-contato" id="contato">
+        <div class="contato-wrapper">
+            <div class="contato-left"></div>
+            <div class="contato-right">
+                <h1>Contato</h1>
+                <form method="POST" action="salvar_input.php">
+                    <div class="input-group">
+                        <input type="text" class="field" id="nome">
+                        <label for="nome" class="field-label">Local de entrega</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" class="field" id="email">
+                        <label for="email" class="field-label">NF</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" class="field" id="nome">
+                        <label for="mensagem" class="field-label">PLACA DA CARRETA</label>
+                    </div>
+
+                    <button type="submit" class="btn btn-submit">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </section>
+</div>
+</body>
+
+<!--JavaScript-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.3/jspdf.umd.min.js"></script>
+
+</html>
